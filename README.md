@@ -1,2 +1,2 @@
 # pythonlab
-Security oriented Python script snippets - Lab
+Offensive Security oriented Python script snippets - Learning Lab
