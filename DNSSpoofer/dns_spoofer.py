@@ -1,4 +1,4 @@
-#!/usr/bierzn/env python3
+#!/usr/bin/env python3
 import netfilterqueue
 import scapy.all as scapy
 
